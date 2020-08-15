@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+    background: brown;
+}
+.box2{
+    background: springgreen;
+}
+.box3{
+    background: orange;
+}
+.box4{
+    background: chartreuse;
+}
+.box5{
+    background: gold;
+}
+main{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+    
+}
+
